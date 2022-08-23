@@ -3,8 +3,6 @@ import './CardPokemon.css'
 
 const CardPokemon = ( { pokemon } ) => {
 
-  console.log( pokemon );
-
   return (
     <div className='cardPokemon'>
       { pokemon != null ? (<div className='card'>
@@ -18,7 +16,7 @@ const CardPokemon = ( { pokemon } ) => {
         </div>
         <div>
           <p className='card-number'><span>Tipo:</span> { pokemon.types } </p>
-          <p className='card-ability'><span>Habilidades:</span> { pokemon.abilities.join(', ') }</p>
+          {/* <p className='card-ability'><span>Habilidades:</span> { pokemon?.abilities.join(', ') }</p> */}
           <p className='card-attack'><span>Ataque:</span> { pokemon.attack } </p>
         </div>
         <div>
