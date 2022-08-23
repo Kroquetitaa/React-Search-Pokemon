@@ -13,6 +13,7 @@ const App = () => {
       <Router>
         <Navbar />
         <Routes>
+          <Route path='*' element={ <Home />}></Route>
           <Route path='/home' element={ <Home />}></Route>
           <Route path='/search' element={ <SearchPokemon /> }></Route>
         </Routes>
