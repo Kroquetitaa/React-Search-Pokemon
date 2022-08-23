@@ -1,0 +1,37 @@
+.navbar-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar-list__logo{
+    width: 50%;
+    transition: all 0.5s ease;
+}
+
+.navbar-list__logo:hover{
+    transform: scale(1.1);
+}
+
+.navbar-list__searchLink{
+    text-decoration: none;
+}
+
+.navbar-list__search{
+    color: var(--color);
+    font-weight: bolder;
+    font-size: 1.5rem;
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 7.5px;
+    transition: all 0.4s ease-in-out;
+}
+
+.navbar-list__search:hover{
+    background-color: #FFCB05;
+    color: white;
+    transform: scale(1.1);
+}

@@ -1,0 +1,18 @@
+.searchPokemon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchPokemon-title{
+    color: var(--color);
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.searchPokemon-input{
+    border-radius: 7.5px;
+    text-align: center;
+    border:2px solid black;
+}
